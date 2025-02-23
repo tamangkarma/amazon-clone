@@ -14,6 +14,7 @@ body {
     height: 60px;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .navbar-logo{
@@ -25,6 +26,7 @@ body {
 
 .border:hover{
     border: 1px solid white;
+    cursor: pointer;
 }
 
 .navbar-logo img{
@@ -56,7 +58,6 @@ body {
     display: flex;
     align-items: center;
     position: absolute;
-    background-color: ;
     top: 25px;
 }
 
@@ -109,7 +110,7 @@ body {
 }
 
 .lang{
-    height: 40px;
+    height: 50px;
     width: 50px;
     display: flex;
     align-items: center;
@@ -126,18 +127,21 @@ body {
 
 .account{
     color: white;
-    height: 40px;
-    width: 150px;
+    height: 50px;
+    width: 130px;
     border: 1px solid transparent;
 }
 
 .account-name{
     font-size: 0.85rem;
     margin-left: 10px;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
-
+.account-lists{
+    position: relative;
+    bottom: 4px;
+}
 
 .account-select{
     background: none;
@@ -146,4 +150,111 @@ body {
     cursor: pointer;
     font-weight: bold;
     margin-left: 5px;
+}
+
+.returns-box{
+    color: white;
+    height: 50px;
+    width: 80px;
+    border: 1px solid transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.returns{
+    font-size: 0.85rem;
+    margin-right: 10px;
+}
+
+.orders{
+    font-size: 0.90rem;
+    font-weight: bold;
+    position: relative;
+    bottom: 2px;
+}
+
+.cart{
+    color: white;
+    height: 50px;
+    width: 80px;
+    border: 1px solid transparent;
+    display: flex;
+}
+
+.cart-name{
+    font-size: 0.95rem;
+    margin-top: 17px;
+    margin-left: -6px;
+    font-weight: bold;
+
+}
+
+
+.second-nav{
+    background-color: #232F3E;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+
+.all-nav {
+    display: flex;
+    height: 40px;
+    width: 60px;
+    margin-left: 20px;
+    border: 1px solid transparent;
+    align-items: center;
+}
+
+.all{
+    font-size: 0.90rem;
+    margin-left: 5px;
+    margin-bottom: 2px;
+    
+}
+
+.todays-deal{
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    padding: 10px 0; 
+    font-size: 0.85rem;
+}
+
+.customer-service{
+    height: 40px;
+    width: 130px;
+    text-align: center;
+    padding: 10px 0; 
+    font-size: 0.85rem;
+}
+
+.registry{
+    height: 40px;
+    width: 70px;
+    text-align: center;
+    padding: 10px 0; 
+    font-size: 0.85rem;
+}
+
+.gift-cards{
+    height: 40px;
+    width: 80px;
+    text-align: center;
+    padding: 10px 0; 
+    font-size: 0.85rem;
+}
+
+.sell{
+    height: 40px;
+    width: 40px;
+    color: white;
+    text-align: center;
+    padding: 10px 0; 
+    font-size: 0.85rem;
 }
