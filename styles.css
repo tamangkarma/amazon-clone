@@ -119,10 +119,14 @@ body {
 
 .lang-select{
     background: none;
-    color: white;
     border: none;
+    color: white;
     cursor: pointer;
     font-weight: bold;
+}
+
+.language{
+    color: black;;
 }
 
 .account{
