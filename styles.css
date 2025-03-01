@@ -359,9 +359,9 @@ body {
 
 .grid-items{
     background-color: whitesmoke;
-    height: 450px;
+    height: 410px;
     width: 100%;
-
+    cursor: pointer;
 }
 
 .main-content{
@@ -390,7 +390,7 @@ body {
 }
 
 .grid-item-footer{
-    height: 80px;
+    height: 50px;
     margin: 0 10px 0 10px;
     display: flex;
     align-items: center;
@@ -399,6 +399,10 @@ body {
 .grid-item-footer a{
     text-decoration: none;
     margin-left: 5px;
-    color: #0E3554
+    color: #035fab;
+    font-size: 0.85rem;
+}
 
+.grid-item-footer a:hover{
+    color: #0E3554;
 }
