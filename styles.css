@@ -406,3 +406,30 @@ body {
 .grid-item-footer a:hover{
     color: #0E3554;
 }
+
+.grid-box2{
+    height: 250px;
+    width: 100%;
+    margin-top: 540px;
+}
+
+.grid-items2{
+    background-color: white;
+    height: 250px;
+    margin: 0 30px;
+}
+
+.grid-item2-title{
+    height: 60px;
+    padding: 30px 0 0 30px;
+    font-size: 1.15rem;
+    font-weight: bold;
+
+}
+
+.grid-item2-title a{
+    text-decoration: none;
+    padding-left: 10px;
+    font-size: 0.85rem;
+    color: #035fab;
+}
