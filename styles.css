@@ -480,7 +480,7 @@ body {
     height: 160px;
     text-align: center;
     padding-top: 35px;
-background-color: white;
+    background-color: white;
 }
 
 .r-header{
@@ -611,7 +611,7 @@ span{
 }
 
 /* Responsive Styles */
-@media (max-width: 767px){
+@media (max-width: 768px){
     .navbar{
         height: 200px;
     }
@@ -755,5 +755,93 @@ span{
         width: 200px;
         height: 50px;
     }
+
+}
+
+
+@media (max-width:1024px){
+    .nav-address{
+        display: none;
+    }
+
+    .nav-search{
+        width: 300px;
+    }
+    .search-icon{
+        width: 100px;
+    }
+
+    .lang, .returns-box{
+        display: none;
+    }
+
+    .account{
+        margin-right: 200px;    
+    }
+
+    .cart{
+        width:80px;
+        position: absolute;
+        margin-left: 520px;
+        margin-top: 10px;
+    }
+
+    .left-btn, .right-btn{
+        display: none;
+    }
+
+    .hero-section{
+        margin: 0;
+    }
+
+    .grid-box1{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0;
+    }
+
+    .grid-box2{
+       display: none;
+    }
+
+    .grid-box3{
+        display: none;
+    }
+
+    .grid-items2, .items2{
+        display: none;
+    }
+
+    .items2{
+        display: none;
+    }
+
+    .grid-items5{
+        margin-top: 300px;
+    }
+
+    .grid-box5{
+        display: none;
+    }
+
+    .items5{
+        display: none;
+    }
+
+    .recommendations{
+        margin-top: 2300px;
+    }
+    .r-main-content{
+        margin: 0;
+    }
+
+    .grid-box4{
+        margin-top: 1360px;
+    }
+
+    
+
+
+
 
 }
